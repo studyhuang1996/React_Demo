@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <div id="root"></div>
+     <!--demo1-->
+    <h2>因为React中特有的JSX语法,type="text/babel" </h2>
+    <script type="text/babel">
+      ReactDOM.render(
+              <h3>react.js:核心库;react-dom.js提供与dom相关功能
+                brower.js将JSX语法转化为JavaScript语法。</h3>,
+             document.getElementById("root")
+      );
+    </script>
+
+  </body>
+</html>
